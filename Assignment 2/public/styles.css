@@ -1,0 +1,16 @@
+body{
+    background-color: beige;
+    padding: 100px;
+    margin: 0;
+    text-align: center;
+    
+}
+p{
+    color: rgb(12, 114, 117);
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(187, 185, 164);
+}
+img{
+    width: max-content;
+}

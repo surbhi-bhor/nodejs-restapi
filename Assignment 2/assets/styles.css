@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://images.pexels.com/photos/1907785/pexels-photo-1907785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(116, 13, 13) ;
+    margin: 0;
+    height: 100vh;
+}
+
+#title {
+    font-size: 50px;
+    text-decoration: underline;
+    color: white;
+}
+
+#description{
+    font-size: 25px;
+    color: white;
+}
+
+#body{
+    width:600px;
+    padding:30px;
+    margin:auto;
+    border-radius:10px;
+    text-align:left;
+    background-color:rgba(116, 13, 13, 0.6);
+    font-size:20px;
+    color:white;
+    font-weight: 900;
+    letter-spacing: 0.7px;
+}
+
+#name{
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  #email{
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  #number{
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  #dropdown{
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  #comment{
+    margin-top: 30px; 
+    width:550px;
+    height: 100px;
+    padding:10px;
+    border-radius:10px;
+    border:none;
+    
+  }
+  #submit{
+    width:590px;
+    padding:20px;
+    font-size:20px;
+    border-radius:10px;
+    border:none;
+    margin-top:3%;
+    color:white;
+    background-color:rgb(116, 13, 13);
+    
+  }
+
+  @media (max-width:1127px) {
+    body {
+      background-repeat: repeat;
+
+    }
+    
+  }
